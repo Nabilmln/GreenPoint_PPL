@@ -1,6 +1,6 @@
 import { NextApiRequest, NextApiResponse } from "next";
-import connectDB from "../../../lib/mongodb";
-import User from "../../../models/User";
+import connectDB from "src/app/lib/mongodb";
+import User from "src/app/models/User";
 import bcrypt from "bcryptjs";
 
 export default async function handler(

@@ -1,8 +1,8 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { useToast } from "@/hooks/use-toast";
-import { Button } from "@/components/ui/button";
+import { useToast } from "hooks/use-toast";
+import { Button } from "components/ui/button";
 import { useRouter } from "next/navigation";
 
 export default function Dashboard() {
@@ -120,7 +120,7 @@ export default function Dashboard() {
             </h2>
             <p className="text-center text-gray-600 mb-4">
               Once you upload an image, it will be evaluated by our AI model.
-              You'll earn points, and upon reaching certain milestones, you'll
+              You ll earn points, and upon reaching certain milestones, you ll
               receive a certification as a Master Gardener!
             </p>
             <div className="text-center text-gray-600 mb-4 space-y-1">
