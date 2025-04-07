@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Button } from "@/components/ui/button";
+import { Button } from "components/ui/button";
 
 export default function Certification() {
   const certificateUrl = "/images/sertifikat.png";
@@ -73,7 +73,7 @@ Check out my certificate here: ${shareUrl}
         <p className="mt-2 text-xl font-semibold">Congratulations! 🎉</p>
         <p className="text-lg mt-1">
           You are now a{" "}
-          <span className="font-bold text-green-600">"Beginner Gardener"</span>!
+          <span className="font-bold text-green-600">Beginner Gardener</span>!
         </p>
 
         <div className="mt-6 space-y-2">
@@ -100,7 +100,7 @@ Check out my certificate here: ${shareUrl}
           </Button>
 
           <Button
-            variant="outline"
+            // variant="outline"
             onClick={handleCopyCaption}
             className="w-full"
           >
