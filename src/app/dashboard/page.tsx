@@ -1,8 +1,8 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { useToast } from "hooks/use-toast";
-import { Button } from "components/ui/button";
+import { useToast } from "@/hooks/use-toast";
+import { Button } from "@/components/ui/button";
 import { useRouter } from "next/navigation";
 
 export default function Dashboard() {
