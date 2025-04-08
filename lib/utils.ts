@@ -1,5 +1,3 @@
-import { PrismaClient } from "@prisma/client";
-
-const prisma = new PrismaClient();
-
-export default prisma;
+export function cn(...classes: (string | boolean | undefined)[]) {
+  return classes.filter(Boolean).join(" ");
+}
